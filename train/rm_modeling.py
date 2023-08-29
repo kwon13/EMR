@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
     @dataclass
     class DataArguments:
-        train_data_path: str = field(default="fiveflow/cot_ranking", metadata={"help": "Path to the training data."})
+        train_data_path: str = field(default="", metadata={"help": "Path to the training data."})
         valid_data_path: str = field(default=None, metadata={"help": "Path to the validation data."})
         reference_path: str = field(default=None, metadata={"help": "Path to the reference representation tensor."})
     
